@@ -34,12 +34,3 @@ advantage of multithreading and use the `n_jobs=-1` parameter to use all availab
 a larger cache_size, to increase speed.
 
 Don't forget to adjust these values to match your system if running these cells.
-
-
-Notes:
-======
- - There are five files, each dedicated to a single algorithm and both data sets as well as 
-   one file used for data exploration purposes.
-
- - All the algorithm files are structured in a similar way, and use the same random state seed.
-   The test/train split occurs before the data is standardized to avoid fitting on the test set.
